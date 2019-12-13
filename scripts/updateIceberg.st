@@ -36,7 +36,7 @@ MetacelloPharoPlatform select.
     'Iceberg-GitCommand'
     'Iceberg-SmartUI'
     'Iceberg-Pharo6'
-    'LibGit-Core') 
+    ) 
 do: [ :each |
     (each asPackageIfAbsent: [ 
         (each , ' not found') logCr.
